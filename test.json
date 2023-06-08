@@ -1,0 +1,133 @@
+{
+    "data": [
+        {
+            "STAT": [
+                ""
+            ],
+            "Num": [
+                "018773"
+            ],
+            "LgAdr1": [
+                "FRANPRIX COEUR UNIVERSITE      "
+            ],
+            "LgAdr2": [
+                ""
+            ],
+            "LgAdr3": [
+                "149 TERRASSE DE L UNIVERSITE   "
+            ],
+            "LgAdr4": [
+                ""
+            ],
+            "CP": [
+                "92000"
+            ],
+            "Ville": [
+                "NANTERRE                  "
+            ],
+            "Pays": [
+                "FR"
+            ],
+            "Localisation1": [
+                ""
+            ],
+            "Localisation2": [
+                ""
+            ],
+            "Latitude": [
+                "48,8989593"
+            ],
+            "Longitude": [
+                "02,2158328"
+            ],
+            "TypeActivite": [
+                "000"
+            ],
+            "Information": [
+                ""
+            ],
+            "Horaires_Lundi": [
+                {
+                    "string": [
+                        "1000",
+                        "2000",
+                        "0000",
+                        "0000"
+                    ]
+                }
+            ],
+            "Horaires_Mardi": [
+                {
+                    "string": [
+                        "1000",
+                        "2000",
+                        "0000",
+                        "0000"
+                    ]
+                }
+            ],
+            "Horaires_Mercredi": [
+                {
+                    "string": [
+                        "1000",
+                        "2000",
+                        "0000",
+                        "0000"
+                    ]
+                }
+            ],
+            "Horaires_Jeudi": [
+                {
+                    "string": [
+                        "1000",
+                        "2000",
+                        "0000",
+                        "0000"
+                    ]
+                }
+            ],
+            "Horaires_Vendredi": [
+                {
+                    "string": [
+                        "1000",
+                        "2000",
+                        "0000",
+                        "0000"
+                    ]
+                }
+            ],
+            "Horaires_Samedi": [
+                {
+                    "string": [
+                        "1000",
+                        "2000",
+                        "0000",
+                        "0000"
+                    ]
+                }
+            ],
+            "Horaires_Dimanche": [
+                {
+                    "string": [
+                        "1000",
+                        "1900",
+                        "0000",
+                        "0000"
+                    ]
+                }
+            ],
+            "Informations_Dispo": [
+                ""
+            ],
+            "URL_Photo": [
+                "https://ww2.mondialrelay.com/public/permanent/photo_relais.aspx?ens=CC______41&num=018773&pays=FR&crc=BB4932186AE7E26773E49A54CAF3CF2D"
+            ],
+            "URL_Plan": [
+                "https://ww2.mondialrelay.com/public/permanent/plan_relais.aspx?ens=BDTEST1311&num=018773&pays=FR&crc=7055FA092D732AA26F1F6003902FEB0C"
+            ],
+            "Distance": [
+                "90"
+            ]
+        }
+    ]
+}

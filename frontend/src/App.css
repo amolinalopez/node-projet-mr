@@ -1,0 +1,268 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  /* height: 450px; */
+}
+
+* {
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+input {
+  font-size: 1.4rem;
+  width: 20%;
+  margin-right: 15px;
+  max-width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: black;
+}
+
+select {
+  font-size: 1.4rem;
+  width: 20%;
+  margin-right: 15px;
+  max-width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: black;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #96154a !important;
+  border: 1px solid #96154a !important;
+  color: #fff;
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 1.4rem;
+  width: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #96154a;
+  margin-bottom: 50px;
+}
+
+/* Header styles */
+header {
+  padding-top: 20px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.navigation li {
+  margin-right: 10px;
+}
+
+.navigation li:last-child {
+  margin-right: 0;
+}
+
+.navigation li a {
+  text-decoration: none !important;
+  color: #96154a !important;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.navigation li a:hover {
+  color: #ff5c8c !important;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #333;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.visible-xs {
+  display: none;
+}
+
+/* Styles pour le bandeau */
+#bandeau {
+  background-color: #96154a;
+  height: 80px;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+#bandeau ul {
+  list-style-type: none;
+}
+
+#bandeau li {
+  margin-left: 20px;
+}
+
+#bandeau a {
+  color: white;
+  text-decoration: none;
+}
+
+#bandeau a.connexion {
+  font-weight: bold;
+}
+
+/* MODIF TOM */
+
+.container-iframe {
+  overflow: hidden;
+  position: relative;
+  width: 450px;
+  height: 260px;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.relais-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.relais-info {
+  text-align: left;
+  flex: 1;
+}
+
+.relais-id {
+  color: white;
+  background-color: #333;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.relais-title {
+  display: flex;
+  gap: 20px;
+}
+
+.relais-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.relais-photo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+
+.relais-photo h3 {
+  text-align: left;
+  text-decoration: underline;
+}
+
+/* Media queries pour le rendu responsive */
+
+/* Pour les écrans jusqu'à 768px de largeur */
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+    height: auto;
+  }
+
+  input {
+    font-size: 1rem;
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  button {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Pour les écrans jusqu'à 480px de largeur */
+@media (max-width: 480px) {
+  .navigation li {
+    margin-right: 5px;
+  }
+
+  .navigation li a {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f5f5f5;
+}
+
+form.input-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  background-color: rgba(235, 234, 234, 0.27);
+  padding-top: 15px;
+  border-radius: 10px;
+  border: #d8d8d8a5 1px solid;
+}
